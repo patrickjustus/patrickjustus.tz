@@ -1,0 +1,38 @@
+.poster{
+	background: url(.../image/tv_shield.jpg);
+}
+
+header{
+	overflow: hidden;
+}
+header h2{
+	float: left;
+	
+}
+
+nav li{
+	float: right;
+}
+ 
+ .grid_2{
+	float: left;
+}
+.box{
+	background: black;
+	width: 200px; 
+	height: 150px;
+}
+
+
+
+.container_24{background: green;}
+.grid_10{ background: red;}
+.grid_6{background: black;}
+.grid_4{background: yellow;}
+.grid_4{background: purple;}
+.grid_2{background: orange;}
+
+
+footer{
+	clear: both;
+}

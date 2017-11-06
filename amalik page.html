@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+<meta charset="utf-8"/>
+<title> Our HTML5 Nav!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="blueberry.css" />
+<link rel="stylesheet" href="grid/960_12_col.css"/>
+
+<style>
+*{
+	padding: 0;
+	margin: 0;
+	-wbkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: #737373;
+	background: #f0f0f0;
+	font: 14px/20px Arial, San-Serif;
+	color: #404040;
+}
+#wrapper{
+	margin:0 auto;
+	max-width: 1020px;
+	width: 98%;
+	background: #2F3038;
+	padding: 2%;
+	border-radius: 2px;
+}
+header{
+	width: 98%;
+	min-height: 100px;
+	padding:5px;
+	margin-bottom: -40px;
+	text-align: center;
+}
+img{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+nav{
+	width: 95%;
+	margin: 15px auto;
+	overflow: hidden;
+}
+nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+nav li a{
+	background: #737373;
+	border-right: 1px solid #2F3038;
+	color: #2F3038;
+	display: block;
+	float: left;
+	font: 12px, Arial, Helvitica;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	width: 16.5%;
+
+	-webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	-ms-transition: background 0.5s ease;
+     transition: background 0.5s ease; 
+}
+nav li a:hover {
+	background: #DADADA;
+}
+
+/*Media Queries!*/
+@media screen and (max-width: )
+		
+	
+	
+
+nav li a {
+		width:50%;
+		font: 13px arial,Helvitica;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		border-bottom: 1px solid #2F3038;
+	}
+nav li:nth-child(even)a {
+		border-right: none;
+
+	}
+}
+
+
+<!--
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+a { color: #264c99; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1,h2,h3,h4,p{ margin-bottom: 20px; }
+h1 {
+	font-size: 48px;
+	line-height: 60px;
+	color: #ffffff;
+	text-transform: lowercase;
+}
+h2, h3 {
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 40px;
+	color: #808080;
+}
+h3 { font-size: 18px; color: #404040; }
+h5 { font-weight: bold; font-size: 14px; color: #000; }
+
+h6{  margin-bottom: 20px;
+	 font-weight: bold; font-size: 18px; color: #000;
+
+
+}
+
+#header {
+	height: 60px;
+	padding-top: 20px; padding-bottom: 20px;
+	text-align: center;
+	background: #405580;
+}
+#header h1 {
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1140px;
+}
+#doc { margin: 40px 0; }
+#content {
+	margin: 0 auto;
+	min-width: ;
+	max-width: ;
+}
+
+.blueberry { max-width: 720px;
+              
+
+
+  }
+
+section{
+	width: 29%;
+	float: left;
+    width:auto; 
+    margin: 2% 2%;
+    text-align: center;
+}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+<header>
+<a href="#"><img src="http://marktyrrell.com/labs/blueberry/img/logo.png" alt="Blueberry" /></a>
+</header>
+<nav>
+	<ul>
+		<li class='active'><a href=#>Home</a></li>
+		<li class='active'><a href=#>About</a></li>
+		<li class='active'><a href=#>Business</a></li>
+		<li class='active'><a href=#>Photos</a></li>
+		<li class='active'><a href=#>Videos</a></li>
+		<li class='active'><a href=#>Contact</a></li>
+</ul>
+
+</nav>
+
+</div>
+
+<div id="doc">
+  <div id="content">
+
+<!-- blueberry -->
+
+    <div class="blueberry">
+      <ul class="slides">
+        <li><img src="slide1.jpg" /></li>
+        <li><img src="slide2.jpg" /></li>
+        <li><img src="slide3.jpg" /></li>
+        <li><img src="slide4.jpg" /></li>
+      </ul>
+    </div>
+
+<!-- blueberry -->
+
+</div>
+</div>
+
+<div class="container_12">
+
+<div class="grid_4">
+
+<section>
+	<h6>Best Trainers!</h6>
+	<img src="trainers.jpg"/>
+	<p>Here at the gym have the best training staff who can give u a good training u deserve, the trainers are professional and have much expericence in there job.  </p>
+</section>
+
+</div>
+
+<div class="grid_4">
+
+<section>
+	<h6>Local & Convinent</h6>
+	<img src="location.jpg"/>
+	<p>Our location sits near the center of city at Askari monument, via samora avenue road, we are always open 24 hrs except for weekdays  we close at 01000hrs always welcome </p>
+</section>
+
+</div>
+
+<div class="grid_4">
+
+<section>
+	 <h6>Check Us Out</h6>
+	<img src="check.jpg"/>
+    <p>To show how confident we are our facilities and their satsfying needs of our clients </p> 
+</section>
+
+</div>
+</div>
+
+</body>
+</html>
